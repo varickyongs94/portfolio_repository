@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/****************************************HEADER SECTION**************************************************************/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(cv.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.navbar{
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+}
+
+.banner-text p{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+.banner-btn{
+    padding-top: 20px;
+    
+}
+
+.banner-btn a{
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    color: white;
+    background-color: gray;
+    font-size: 1.1em;
+
+}
+
+.banner-btn a:hover{
+    color: white;
+    background-color: rgb(4, 11, 97);
+    text-decoration: none;
+    border: 5px solid gray;
+}
+
+.navbar-brand{
+    font-family: 'Chewy', cursive;
+    font-size: 2em;
+}
+
+.nav-link{
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+
+/*******************************************ÜBER MICH SECTION ******************************************************************/
+
+.about{
+    padding: 100px 15px;
+    font-family: 'Cormorant Garamond', serif;
+    
+
+}
+
+.about .section-title{
+    flex: 0 0 100%;
+    margin-bottom: 40px;
+}
+
+.about .section-title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.about .section-title p{
+    font-size: 1.5em;
+    font-weight: 400px;
+    letter-spacing: 4px;
+}
+
+ 
+
+.about .about-content{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+    
+}
+
+.about .about-content .img{
+    flex: 0 0 33.33%;
+    max-width: 33.33% ;
+
+}
+
+.about .about-content .img img{
+    display: block;
+    width: 100%;
+}
+
+.about .about-content .text{
+
+    flex: 0 0 66.66%;
+    max-width: 66.66% ;
+    padding-left: 35px;
+}
+
+.about .about-content .text h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.about .about-content .text h6{
+    font-size: 1em;
+    font-weight: 200%;
+    margin-bottom: 10px;
+}
+
+.about .about-content .text h6 span{
+    color: rgb(12, 3, 99);
+}
+
+.about .about-content .text p{
+    font-size: 1em;
+    font-weight: 100%;
+    line-height: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+
+.about .about-content .text .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.about .about-content .text .info .list{
+    flex: 0 0 calc(50% - 5px);
+    max-width: calc(50% - 15px);
+    margin-top: 5px;
+    border-bottom: 0.8px solid rgb(165, 163, 163);
+    padding-bottom: 5px;
+    
+    
+
+}
+
+.about .about-content .text .info .list label{
+    padding-right: 10px;
+    font-weight: 900;
+}
+
+
+
+/******************************************SCHWERPUNKTE SECTION***************************************************************************/
+
+.punkte{
+
+    padding: 30px 0px;
+}
+
+.punkte h1{
+    font-weight: 900 ;
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.punkte-title{
+    text-align: center;
+    padding: 25px 0px;
+    
+}
+
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+    font-family: 'Cormorant Garamond', serif;  
+}
+
+
+
+.card:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.card{
+    margin: 20px 20px 0 100px;
+    padding: 30px 30px 30px 30px;   
+}
+
+
+
+.card-title{
+    font-size: 0.8em;
+}
+
+
+
+
+/******************************************JOBS SECTION**************************************************************************/
+.jobs{
+
+    padding: 30px 0px;
+}
+
+.jobs h1{
+    font-weight: 900 ;
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.jobs-title{
+    text-align: center;
+    padding: 25px 0px;
+    
+}
+
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+}
+.card{
+    margin: 20px 20px 0  100px;
+    padding: 30px 30px 30px 30px;
+    margin-left: 110px;
+    
+}
+
+
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++KENNTNISSE SEKTION++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.skills{
+
+    padding: 100px 15px;
+    background-color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+.skills .skills-content{
+    flex: 0 0  50%;
+    max-width: 50%;
+    padding-right: 40px;
+
+}
+.skills .img{
+    flex: 0 0  50%;
+    max-width: 50%;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+.skills .img img{
+    width: 60%;
+    height: 60%;
+    display: block;
+}
+
+.skills .skills-content .skill-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.skills .skills-content .skill-box h6{
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 0 8px;
+}
+
+.skills .skills-content .skill-box .skill-bar{
+    height: 6px;
+    background-color: rgb(172, 172, 169);
+    position: relative;
+
+}
+
+.skills .skills-content .skill-box .skill-bar .skill-bar-in{
+    background-color: rgb(22, 4, 102);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+   
+}
+
+.skills .skills-content .skill-box .skill-bar span{
+    font-size: 1.8em;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    
+}
+
+/*******************************************SPRACHKENNTNISSE SECTION********************************************+*********************************/
+
+.languages{
+
+    padding: 30px 0px;
+    margin-bottom: 50px;
+}
+
+.languages h1{
+    font-weight: 900 ;
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.languages-title{
+    text-align: center;
+    padding: 25px 0px;
+    
+}
+
+.card-number1{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(englisch.png);;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.card-number2{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(deutsch5.png);;
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+.card-number3{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(france2.png);;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.card-number1 h6{
+    padding-top: 10px;
+}
+
+.card-number2 h6{
+    padding-top: 10px;
+}
+
+.card-number3 h6{
+    padding-top: 10px;
+
+}
+
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+    font-family: 'Cormorant Garamond', serif;
+    display: grid;
+    grid-template-rows: 30% 30% 30% 30%;
+    margin-top: 50px;
+
+    
+    
+}
+.card{
+    margin: 20px 20px 0 100px;
+    padding: 30px 30px 30px 30px;
+    margin-left: 110px;
+}
+
+
+
+
+/*******************************************FOOTER SECTION***********************************************************************************++*/
+
+#footer{
+    padding: 80px 15px;
+    background: black;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+#footer .logo{
+
+    font-family: 'Chewy', cursive;
+    letter-spacing: 2px;
+    
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+#footer .social{
+
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+    
+
+#footer .social a{
+    color: rgb(21, 2, 88);
+    margin: 8px;  
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    
+}
+
+#footer .social a:hover{
+    color: lawngreen;
+}
+
+/******************COPYRIGHT SECTION***************************+*/
+
+.copyright{
+    background: black;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid white;
+    padding: 15px;
+}
+
+.copyright p{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+
+
+
